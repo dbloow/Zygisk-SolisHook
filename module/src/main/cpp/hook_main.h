@@ -8,7 +8,7 @@
 #include <android/log.h>
 
 static int enable_hack;
-static const char* game_name = "game.qualiarts.idolypride"; // TODO:EDIT THIS
+static const char* game_name = "com.asobimo.toramonline"; // TODO:EDIT THIS
 static unsigned long base_addr = 0;
 static void* il2cpp_handle = nullptr;
 int isGame(JNIEnv *env, jstring appDataDir);
